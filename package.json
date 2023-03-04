@@ -1,0 +1,24 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "react": "^18.2.0",
+    "react-chrono": "^1.22.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-scroll": "^1.8.9",
+    "react-simple-typewriter": "^5.0.1",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}

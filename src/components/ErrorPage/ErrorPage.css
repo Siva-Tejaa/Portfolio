@@ -1,0 +1,19 @@
+.error-page{
+  text-align: center;
+  margin: 10%;
+  color: grey;
+}
+.error-404{
+  font-size: 100px;
+}
+.oops{
+  padding-bottom: 15px;
+}
+.error-info{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+.error-home-page{
+  color: blue;
+  background-color: white;
+}

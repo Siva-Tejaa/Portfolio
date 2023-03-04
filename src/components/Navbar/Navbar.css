@@ -1,0 +1,75 @@
+.nav-bar-parent {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.scroll-header{
+  box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sivateja-logo {
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.nav-items {
+  list-style: none;
+  padding: 5px 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.nav-items:hover {
+  color: hsl(213, 66%, 41%);
+}
+.hamburger,
+.cross,
+#checkbox_toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: none;
+}
+
+/* ---------- NavBar Media Queries ---------- */
+
+@media (max-width: 817px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-bar-list {
+    width: 100%;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  #checkbox_toggle:checked ~ .nav-list {
+    display: flex;
+  }
+  #checkbox_toggle:checked ~ .cross {
+    display: block;
+    cursor: pointer;
+  }
+}

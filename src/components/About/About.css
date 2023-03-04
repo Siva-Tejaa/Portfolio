@@ -1,0 +1,33 @@
+#about{
+
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-top: 40px;
+}
+.about-subtitle {
+  color: gray;
+}
+.about-me{
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-exp,.about-work ,.about-online{
+  margin: 4px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 9%;
+}
+.about-text-main{
+  font-weight:600;
+}
+.about-text{
+  font-size:12px;
+  padding-top: 5px;
+  color: gray;
+}

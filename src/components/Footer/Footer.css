@@ -1,0 +1,29 @@
+.footer{
+  margin-top: 20px;
+  padding: 15px;
+  padding-bottom: 10px;
+  color: gray;
+  box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
+}
+
+.info_social {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 10px auto;
+}
+
+.foot-icons {
+  width: 35px;
+  margin-left: 8px;
+  font-size: 1.5rem;
+}
+
+.foot-icons:hover {
+  box-shadow: -1px 9px 40px -12px rgba(8, 8, 8, 0.75);
+  transform: scale(1.1);
+  transition: 0.4s;
+  color: hsl(213, 66%, 41%);
+}
+.love{
+  padding-top: 5px;
+}

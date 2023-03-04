@@ -1,0 +1,105 @@
+#home{
+}
+.home-parent{
+  padding-top: 50px;
+}
+.home{
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  animation: fadeInFromTop .5s;
+  margin-top: 2.5rem;
+  margin-bottom: 3.2rem;
+}
+
+.home-image-self{
+  width: 100%;
+  min-width: 50%;
+}
+
+@keyframes fadeInFromTop {
+  from{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.home-details{
+  margin: 20px;
+  -webkit-flex:1;
+  min-width: 30%; 
+}
+.title-sub{
+  font-size: 40px;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.hello{
+  display: flex;
+  justify-content: center;
+}
+.helloo{
+  display: flex;
+  justify-content: center;
+}
+.hello, .front-end{
+  line-height: 2;
+}
+.about{
+  color: gray;
+  line-height: 1.5;
+  float: left;
+}
+.resume-btn{
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #253e8f;
+  color: white;
+  cursor: pointer;
+  font-size: medium;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+}
+.home_a{
+  text-decoration: none;
+  background-color: #253E8F;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.home__img {
+  background: url("https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/Portfolio%20Graphic%20Clip%20Art%20Image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.4);
+  order: 1;
+  justify-self: center;
+  width: 300px;
+  height: 300px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+@keyframes profile__animate {
+  0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+
