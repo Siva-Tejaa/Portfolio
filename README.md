@@ -1,3 +1,3 @@
 # Portfolio
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/sivateja)
+Tech Stack Used :
