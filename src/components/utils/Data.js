@@ -1,4 +1,4 @@
-export const ResumeLink = "https://drive.google.com/file/d/1vE4BzMJE2YaqMKRW3mbXK6YvxYrgt5sY/view?usp=drivesdk"
+export const ResumeLink = "https://drive.google.com/file/d/12W1_fcTJQVQZkXiTAGQvdeMYvGUnNBiX/view?usp=sharing"
 
 export const projectsData = [
   {
