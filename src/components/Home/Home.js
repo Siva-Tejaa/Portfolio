@@ -19,7 +19,7 @@ const Home = () => {
     <div className="home-parent" id="home">
       <div className="home">
         <div className="home-details">
-          <h3 className="hello">Hello ! &nbsp; <img src="https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/HiEmoji.gif" width="30px" height="30px" alt="Homeprofilephoto" loading="lazy"/></h3>
+          <h3 className="hello">Hello ! &nbsp; <img src="https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/HiEmoji.gif" width="30px" height="30px" alt="Hi" loading="lazy"/></h3>
          
           <span className="title-sub">I'm </span> <span className="title">Siva Teja</span>
           <h2 className="front-end">
@@ -71,6 +71,7 @@ const Home = () => {
           <img
             src="https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/Portfolio%20Graphic%20Clip%20Art%20Image.png"
             className="home-image-self"
+            alt="Homeprofilephoto" loading="lazy"
           />
         </div>
       </div>
