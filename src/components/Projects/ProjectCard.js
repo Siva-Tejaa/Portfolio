@@ -12,7 +12,7 @@ const ProjectCard = () => {
         projectsData.map((project) => (
           <div key={project.id} className="card">
             <div className="project-image">
-              <img src={project.image} alt={project.title} className="project-image-self"/>
+              <img src={project.image} alt={project.title} className="project-image-self" loading="lazy"/>
             </div>
             
               <span className="project-title-self">{project.title}</span>

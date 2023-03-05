@@ -48,6 +48,7 @@ const Navbar = () => {
             className="sivateja-logo"
             alt="Siva Teja"
             title="Siva Teja"
+            loading="lazy"
           />
           </Link>
         </div>

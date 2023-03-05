@@ -17,7 +17,7 @@ const Skills = () => {
             
             <div className="tech-card" key={tech.name} >
 
-              <img src={tech.link} className="tech-img" alt={tech.name}/>
+              <img src={tech.link} className="tech-img" alt={tech.name} loading="lazy"/>
 
                 <div>
                 <h4>{tech.name}</h4>
