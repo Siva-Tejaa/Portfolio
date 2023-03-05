@@ -9,7 +9,7 @@ const Timeline = () => {
      <Chrono items={timelineData}  mode="VERTICAL_ALTERNATING" twoColumns cardHeight="100" cardWidth="300" disableAutoScrollOnClick disableClickOnCircle  hideControls="true" disableNavOnKey theme={{
       primary: '#253E8F',
       secondary: 'transparent',
-      cardBgColor: '#fafafc',
+      
     }}>
        {
          timelineData.map((data) =>(

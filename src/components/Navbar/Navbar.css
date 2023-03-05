@@ -5,6 +5,7 @@
   z-index: 100;
   padding-top: 5px;
   padding-bottom: 5px;
+  background-color: white;
 }
 .scroll-header{
   box-shadow: 0 -1px 4px rgb(0 0 0 / 15%);
@@ -71,5 +72,9 @@
   #checkbox_toggle:checked ~ .cross {
     display: block;
     cursor: pointer;
+  }
+  #checkbox_toggle:checked ~ .hamburger {
+    display: none;
+    
   }
 }
