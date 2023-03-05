@@ -59,7 +59,7 @@ export const projectsData = [
   },
   {
     id: 8,
-    image: "https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/Portfolio%20Website.PNG",
+    image: "https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/PortfolioWebsite.png",
     title: "Portfolio Website",
     category: "react",
     demo: "https://sivateja.stackblitz.io",
