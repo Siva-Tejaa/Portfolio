@@ -26,7 +26,7 @@ const About = () => {
             <MdWorkOutline style={{ fontSize: '1.5rem' }} />
             <br />
             <span className="about-text-main">Completed</span>
-            <p className="about-text">8+ Projects</p>
+            <p className="about-text">9+ Projects</p>
            
            </div>
            <div className="about-online">
