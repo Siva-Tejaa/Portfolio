@@ -76,9 +76,9 @@ export const projectsData = [
   {
     id: 10,
     image: "https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/YoutubeApp.png",
-    title: "Youtube",
+    title: "Simple Youtube App",
     category: "react",
-    demo: "",
+    demo: "https://react-youtubeapplication.stackblitz.io",
     repo: ""
   }
 
