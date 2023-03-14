@@ -72,6 +72,14 @@ export const projectsData = [
     category: "react",
     demo: "https://react-password-generator.stackblitz.io",
     repo: ""
+  },
+  {
+    id: 10,
+    image: "https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/YoutubeApp.png",
+    title: "Youtube",
+    category: "react",
+    demo: "",
+    repo: ""
   }
 
 
