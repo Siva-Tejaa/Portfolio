@@ -110,7 +110,7 @@ export const techStack = [
 
   { name: "MySQl", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg", level:"Intermediate" },
 
-  { name: "Mongo DB", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg", level:"Basic" },
+  // { name: "Mongo DB", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg", level:"Basic" },
 
   { name: "Azure Databricks", link: "https://s3.us-east-1.amazonaws.com/accredible_temp_credential_images/16002836894132567677717491881160.png", level:"Basic" },
 
