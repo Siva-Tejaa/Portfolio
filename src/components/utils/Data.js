@@ -88,10 +88,15 @@ export const projectsData = [
 
 export const techStack = [
 
-  { name: "Express", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg", level:"Basic" },
+  // { name: "Express", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg", level:"Basic" },
 
-  { name: "NodeJS", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", level:"Basic" },
+  // { name: "NodeJS", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg", level:"Basic" },
 
+  { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", level:"Intermediate" },
+
+  { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", level:"Advanced" },
+
+  { name: "Redux", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg", level:"Basic" },
 
   { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", level:"Advanced" },
 
@@ -99,14 +104,7 @@ export const techStack = [
 
   { name: "Bootstrap", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg", level:"Basic" },
 
-  { name: "Redux", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg", level:"Basic" },
-
-
-  { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", level:"Advanced" },
-
   { name: "Tailwind CSS", link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg", level:"Intermediate" },
-
-  { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg", level:"Intermediate" },
 
   { name: "MySQl", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg", level:"Intermediate" },
 
@@ -114,13 +112,13 @@ export const techStack = [
 
   { name: "Azure Databricks", link: "https://s3.us-east-1.amazonaws.com/accredible_temp_credential_images/16002836894132567677717491881160.png", level:"Basic" },
 
-  { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg", level:"Intermediate" },
+  // { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg", level:"Intermediate" },
 
   { name: "Firebase", link: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg", level:"Basic" },
 
-  { name: "VS Code", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", level:"Advanced" },
+  // { name: "VS Code", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg", level:"Advanced" },
 
-  { name: "Git Hub", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", level:"Intermediate" }
+  // { name: "Git Hub", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg", level:"Intermediate" }
  
 ]
 
