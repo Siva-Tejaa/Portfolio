@@ -80,8 +80,14 @@ export const projectsData = [
     category: "react",
     demo: "https://react-youtubeapplication.stackblitz.io",
     repo: ""
+  },{
+    id:11,
+    image:"https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/SBConstructionsProject.png",
+    title:"Construction Website",
+    category:"react",
+    demo:"https://sbconstructions.stackblitz.io",
+    repo:""
   }
-
 
 ];
 
