@@ -17,6 +17,12 @@ export default function App() {
 
   const [active, setActive] = useState('home');
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [titleShow, setTitleShow] = useState(true);
+
+  setInterval(() => {
+    document.title = titleShow ? "Siva Teja" : "Software Engineer";
+    setTitleShow(!titleShow);
+  },1000)
 
   return (
     <>
