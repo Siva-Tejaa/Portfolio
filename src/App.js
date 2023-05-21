@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import './style.css';
 
 import Context from './components/Context';
@@ -14,28 +14,29 @@ import Scrollup from './components/Scrollup/Scrollup';
 // import ErrorPage from './components/ErrorPage/ErrorPage';
 
 export default function App() {
-
   const [active, setActive] = useState('home');
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [titleShow, setTitleShow] = useState(true);
 
-  setInterval(() => {
-    document.title = titleShow ? "Siva Teja" : "Software Engineer";
-    setTitleShow(!titleShow);
-  },1000)
+  // setInterval(() => {
+  //   document.title = titleShow ? "Siva Teja" : "Software Engineer";
+  //   setTitleShow(!titleShow);
+  // },1000)
 
   return (
     <>
       <center>
-        <Context.Provider value={{ active, setActive, isDarkMode, setIsDarkMode }}>
+        <Context.Provider
+          value={{ active, setActive, isDarkMode, setIsDarkMode }}
+        >
           <Navbar />
           <Home />
-          <About/>
+          <About />
           <Skills />
           <Projects />
           <Contact />
           <Footer />
-          <Scrollup/>
+          <Scrollup />
         </Context.Provider>
       </center>
     </>
