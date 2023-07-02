@@ -85,7 +85,14 @@ export const projectsData = [
     image:"https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/SBConstructionsProject.png",
     title:"Construction Website",
     category:"react",
-    demo:"https://sbconstructions.stackblitz.io",
+    demo:"https://sbconstructions.vercel.app/",
+    repo:""
+  },{
+    id:12,
+    image:"https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/iBomma%20Project.png",
+    title:"iBomma Movies",
+    category:"react",
+    demo:"https://ibomma-movies-app.vercel.app/",
     repo:""
   }
 
