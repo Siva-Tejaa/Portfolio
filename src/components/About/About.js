@@ -19,7 +19,7 @@ const About = () => {
             <FiAward style={{ fontSize: '1.5rem' }} />
             <br />
             <span className="about-text-main">Experience</span>
-            <p className="about-text">1.9+ Years Working</p>
+            <p className="about-text">1.10+ Years Working</p>
            
            </div>
            <div className="about-work">
