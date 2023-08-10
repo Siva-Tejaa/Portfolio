@@ -94,6 +94,13 @@ export const projectsData = [
     category:"react",
     demo:"https://ibomma-movies-app.vercel.app/",
     repo:""
+  },{
+    id:13,
+    image:"https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/SuperKartSite.png",
+    title:"SuperKart",
+    category:"react",
+    demo:"https://super-kart.vercel.app/",
+    repo:""
   }
 
 ];
