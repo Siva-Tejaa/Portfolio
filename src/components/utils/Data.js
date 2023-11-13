@@ -101,6 +101,13 @@ export const projectsData = [
     category:"react",
     demo:"https://super-kart.vercel.app/",
     repo:""
+  },{
+    id:14,
+    image:"https://raw.githubusercontent.com/Siva-Tejaa/Projects-Data/main/TheBharatNews.png",
+    title:"The Bharat News",
+    category:"react",
+    demo:"https://thebharatnews.vercel.app/",
+    repo:""
   }
 
 ];
